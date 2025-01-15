@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Zar Oyunu</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1> Zar Oyunu 🎲</h1>
+
+
+      <div class="players-container">
+        <div class="dice">
+          <p class="player1">Oyuncu 1<br>Skor: 0</p>
+          <img class="img1" src="images/6.png" alt="Zar 1" />
+        </div>
+        
+        <div class="vs-badge">VS</div>
+        
+        <div class="dice">
+          <p class="player2">Oyuncu 2<br>Skor: 0</p>
+          <img class="img2" src="images/6.png" alt="Zar 2" />
+        </div>
+      </div>
+
+      <div class="controls">
+        <button onclick="playGame()">
+          <i class="fas fa-dice"></i> Zar At
+        </button>
+      </div>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
